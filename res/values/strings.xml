@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">-Examen</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_person">Person</string>
+
+    <!-- LABELS -->
+    <string name="nombrelista">Ingrese Nombre Lista</string>
+    <string name="first_name_label">First Name</string>
+    <string name="last_name_label">Last Name</string>
+    <string name="email_label">Email</string>
+    <string name="nameitem">Ingrese nombre Articulo</string>
+    <string name="valoritem">Ingrese Valor Articulo</string>
+    <string name="cantidad">ingrese Cantidad De Articulos</string>
+
+    <!-- BUTTONS -->
+    <string name="add_button_label">Add</string>
+    <string name="save_button_label">Save</string>
+    <string name="delete_button_label">Delete</string>
+    <string name="title_activity_lista2">Lista2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="additem">Add Item</string>
+    <string name="back">~</string>
+    <string name="title_activity_lista_item">ListaItem</string>
+    <string name="editbutton">edit list</string>
+    <string name="title_activity_edit_list">EditListActivity</string>
+    <string name="update">update</string>
+    <string name="title_activity_lista1">Lista1</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="persona_name">Nombre</string>
+    <string name="perfil2">Perfil</string>
+    <string name="update2">up</string>
+
+    <!-- LOGIN -->
+    <string name="login_name">Username</string>
+    <string name="login_password">Password</string>
+    <string name="inicio_session">Login</string>
+
+    <!-- REGISTER -->
+    <string name="name_registro">Username</string>
+    <string name="password_registro">Password</string>
+    <string name="password_confirmation_registro"> Confirmar Password</string>
+    <string name="email_registro">Email</string>
+    <string name="register_button_registro">Registrarse</string>
+    <string name="mayor">usted es mayor de +18</string>
+    <string name="condiciones">Acepto las condiciones de Uso</string>
+    <string name="acepto">Si</string>
+    <string name="agregar2">Update</string>
+    <string name="agregar3">Add.I</string>
+    <string name="borrar_amigo">Delete</string>
+
+    <!-- MAIN ACTIVITY -->
+    <string name="agregar">Settings</string>
+    <string name="perfil">Add Friend</string>
+    <string name="settings">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_aplicacion">Aplicacion</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_persona">Persona</string>
+    <string name="title_activity_lista3_beta">Lista3Beta</string>
+    <string name="title_activity_lista3">Lista3</string>
+    <string name="title_activity_lista4">Lista4</string>
+    <string name="title_activity_lista_item2">ListaItem2</string>
+    <string name="title_activity_list3">List3</string>
+    <string name="title_activity_list3_item">List3Item</string>
+    <string name="title_activity_list4">List4</string>
+    <string name="title_activity_list4_item">List4Item</string>
+    <string name="title_activity_update2">Update2</string>
+
+</resources>

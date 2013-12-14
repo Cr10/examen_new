@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	 <Button
+	     android:id="@+id/deleteButton"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_alignParentLeft="true"
+	     android:layout_centerVertical="true"
+	     android:layout_marginLeft="45dp"
+	     android:onClick="onDeleteButtonClicked"
+	     android:text="@string/delete_button_label"
+	     android:visibility="invisible" />
+
+	 <Button
+	     android:id="@+id/saveButton"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_alignBaseline="@+id/deleteButton"
+	     android:layout_alignBottom="@+id/deleteButton"
+	     android:layout_alignParentRight="true"
+	     android:layout_marginRight="58dp"
+	     android:onClick="onSaveButtonClicked"
+	     android:text="@string/save_button_label" />
+
+	 <EditText
+	     android:id="@+id/nombrelistaField"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_above="@+id/deleteButton"
+	     android:layout_alignParentLeft="true"
+	     android:layout_marginBottom="38dp"
+	     android:ems="10"
+	     android:hint="@string/nombrelista"
+	     android:inputType="text" />
+    
+</RelativeLayout>

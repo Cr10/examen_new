@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ListaItem" >
+
+    <EditText
+        android:id="@+id/fieldvaloritem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fieldnameitem"
+        android:layout_alignRight="@+id/fieldnameitem"
+        android:layout_below="@+id/fieldnameitem"
+        android:hint="@string/valoritem"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/fieldnameitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="65dp"
+        android:ems="10"
+        android:hint="@string/nameitem" />
+
+    <EditText
+        android:id="@+id/fieldcantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fieldvaloritem"
+        android:layout_alignRight="@+id/fieldvaloritem"
+        android:layout_below="@+id/fieldvaloritem"
+        android:ems="10"
+        android:hint="@string/cantidad" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonadditem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/fieldcantidad"
+        android:layout_below="@+id/fieldcantidad"
+        android:layout_marginTop="36dp"
+        android:text="@string/additem"
+        android:onClick="onSaveButtonClicked3" />
+
+    <Button
+        android:id="@+id/buttondelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonadditem"
+        android:layout_alignBottom="@+id/buttonadditem"
+        android:layout_alignLeft="@+id/fieldcantidad"
+        android:text="@string/delete_button_label"
+        android:visibility="invisible"
+        android:onClick="onDeleteButtonClicked" />
+
+    <Button
+        android:id="@+id/buttonback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:onClick="onBackClick2"
+        android:text="@string/back" />
+
+
+</RelativeLayout>

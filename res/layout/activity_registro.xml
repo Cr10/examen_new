@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Registro" >
+
+    <EditText
+        android:id="@+id/nameRegistro"
+        android:inputType="text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/name_registro" />
+
+     <Button
+         android:id="@+id/registerButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="26dp"
+         android:onClick="onRegisterButtonClicked"
+         android:text="@string/register_button_registro" />
+
+     <CheckBox
+         android:id="@+id/checkBox1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/registerButton"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="55dp"
+         android:text="@string/acepto" />
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/checkBox1"
+         android:layout_centerHorizontal="true"
+         android:text="@string/mayor" />
+
+     <EditText
+         android:id="@+id/emailRegistro"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/nameRegistro"
+         android:layout_below="@+id/nameRegistro"
+         android:ems="10"
+         android:hint="@string/email_registro"
+         android:inputType="textEmailAddress" />
+
+     <EditText
+         android:id="@+id/passwordRegistro"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/emailRegistro"
+         android:layout_below="@+id/emailRegistro"
+         android:ems="10"
+         android:hint="@string/password_registro"
+         android:inputType="textPassword" />
+
+     <EditText
+         android:id="@+id/passwordConfirmationRegistro"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/passwordRegistro"
+         android:layout_below="@+id/passwordRegistro"
+         android:ems="10"
+         android:hint="@string/password_confirmation_registro"
+         android:inputType="textPassword" />
+
+</RelativeLayout>

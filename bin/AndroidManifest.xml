@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aci570_db"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.aci570_db.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.aci570_db.PersonActivity"
+            android:label="@string/title_activity_person"
+            android:parentActivityName="com.example.aci570_db.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aci570_db.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.aci570_db.Lista2"
+            android:label="@string/title_activity_lista2" >
+        </activity>
+        <activity
+            android:name="com.example.aci570_db.ListaItem"
+            android:label="@string/title_activity_lista_item" >
+        </activity>
+        <activity
+            android:name="com.example.aci570_db.EditListActivity"
+            android:label="@string/title_activity_edit_list" >
+        </activity>
+        <activity
+            android:name="com.example.aci570_db.Lista1"
+            android:label="@string/title_activity_lista1" >
+        </activity>
+        <activity
+            android:name="com.example.aci570_db.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.aci570_db.Registro"
+            android:label="@string/title_activity_registro" >
+        </activity>
+        <activity
+            android:name="com.example.aci570_db.Lista3Beta"
+            android:label="@string/title_activity_lista3_beta" >
+        </activity>
+        <activity
+            android:name="com.example.aci570_db.Lista3"
+            android:label="@string/title_activity_lista3" >
+        </activity>
+        <activity
+            android:name="com.example.aci570_db.Lista4"
+            android:label="@string/title_activity_lista4" >
+        </activity>
+        <activity
+            android:name="com.example.aci570_db.ListaItem2"
+            android:label="@string/title_activity_lista_item2" >
+        </activity>
+        <activity
+            android:name="com.example.aci570_db.List3"
+            android:label="@string/title_activity_list3" >
+        </activity>
+        <activity
+            android:name="com.example.aci570_db.List3Item"
+            android:label="@string/title_activity_list3_item" >
+        </activity>
+        <activity
+            android:name="com.example.aci570_db.List4"
+            android:label="@string/title_activity_list4" >
+        </activity>
+        <activity
+            android:name="com.example.aci570_db.List4Item"
+            android:label="@string/title_activity_list4_item" >
+        </activity>
+        <activity
+            android:name="update.Update2"
+            android:label="@string/title_activity_update2" >
+        </activity>
+    </application>
+
+</manifest>
